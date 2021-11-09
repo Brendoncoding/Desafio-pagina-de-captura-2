@@ -1,0 +1,154 @@
+body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        font-family: sans-serif ;   
+}
+.topo{  
+        color: white;
+        background-color: rgb(59, 205, 241);
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 27px;
+        padding: 5px 0 5px 0;
+        
+                     
+}
+.people{
+        background-image: url(./images/people.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 900px;
+        height: 600px;
+        margin: auto; 
+             
+}        
+.layout{
+        position: relative;
+        left:67%;
+        top: 20px;
+        background-color: rgba(255, 255, 255, 0.733);
+        max-width: 225px; 
+        padding: 20px;
+        
+        
+}
+h3{ margin: 0;
+    font-size: 90%;
+    text-transform: uppercase;
+    
+}  
+input , select{  
+                font-family: italic cursive sans-serif;
+                border-style: none;
+                font-size: 14px;
+                padding:7px;
+                width: 100%;
+                margin: 3px;
+} 
+.botão{ 
+        color: white;
+        background-color: rgb(59, 205, 241);
+        padding:10px;
+        margin-top: 15px;
+        width: 100%;
+        cursor: pointer;
+        
+} 
+.botão:hover{background-color: hsl(200, 80%, 40%) ;
+        border: 1px solid black ;
+
+}
+.footer{ 
+         margin-top: 45px;
+         padding: 50px;
+         background-color: rgb(41, 41, 41);
+         max-height: 600px;
+         max-width: 900px;       
+        
+}
+.img1{   
+        width: 150px;
+        left: 20%;
+        top: 15%;
+        position: relative;        
+}
+.github{position: relative;
+        left: 100%;
+        top: 0;
+        transform: translate(0, 100%);
+        max-width: 20px;
+        
+
+}
+.texto{  
+        color: white;
+        width: 360px;
+        height: 300px;
+        position: relative;
+        padding: 5px;
+        left: 45%;
+        transform: translate(0, -80%);
+        
+        
+}
+@media (min-width: 200px) and (max-width: 1000px){
+        
+        
+        .layout{
+                left:30%;
+ }
+        
+        .people{
+                max-width: 900px;
+                
+ }
+        img{
+                width: 150px;
+                left: 42%;
+                bottom: 50px; 
+                
+        }
+        .texto{
+                top: 50%;
+                transform: translate(-40%,-20%);
+                width: fit-content;
+                
+        }
+
+}
+@media (min-width: 200px) and (max-width: 380px){
+        .layout{
+                max-width: 60%;
+                left:15%;
+        }
+
+        .img1{
+                width: 150px;
+                left: 20%;
+                bottom: 50px;        
+}
+        .texto{display: block;
+}
+
+        .github{
+                left: 100%;
+                bottom:100%;
+                transform: translate(0,+200%);        
+}       
+
+}
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+
